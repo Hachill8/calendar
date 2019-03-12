@@ -3,14 +3,17 @@ package com.example.user.cal1;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.CalendarView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    String test = "測試";
     CalendarView cv1;
     TextView tv1;
+    void testBranch(){
+        Log.d("test","測試分支功能");
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
