@@ -11,9 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     CalendarView cv1;
     TextView tv1;
-    void testBranch(){
-        Log.d("test","測試分支功能");
-    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
