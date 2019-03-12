@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    String test = "測試";
     CalendarView cv1;
     TextView tv1;
     @Override
